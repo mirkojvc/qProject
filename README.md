@@ -1,4 +1,4 @@
-#Setup process
+# Setup process
 
 -   Added a new configuration to my installed Homestead vagrant machine.
 
@@ -13,3 +13,12 @@
 -   Updated the permissions and ownership on storage and bootstrap/cache
 
 -   Installed bladewind to make it pretty
+
+## Potential improvements
+
+- Better exception handeling with custom exceptions and better messaging
+- Storage abstraction with a storage service, so we can change Cookie to session if needed or whatever
+- Dynamic tables show partial models not whole
+- Forms component that unifies  forms
+- Unit tests for services and controllers
+- CI on github actions that starts tests and a static analisys 
